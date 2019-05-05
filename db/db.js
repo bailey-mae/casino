@@ -1,16 +1,15 @@
+
 const cards = [
     {
-    rank: 2,
-    suit: "spades",
-    description: "2 of spades"
+        rank: "Queen",
+        suit: "Spades",
+        description: "Queen of Spades"
     },
-
     {
-        rank: 4,
-        suit: "diamonds",
-        description: "4 of diamonds"
+        rank: "4",
+        suit: "Diamonds",
+        description: "4 of Diamonds"
     }
-
 ];
 
 export default cards;

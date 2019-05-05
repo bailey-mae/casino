@@ -39,6 +39,14 @@ app.post('/api/v1/cards', (req, res) => {
     })
 });
 
+app.get('/api/v1/hands', (req, res) => {
+    res.status(200).send({
+        success: 'true',
+        message: 'hand retrieved successfully',
+        hands: ''
+    })
+});
+
 const PORT = 5000;
 
 app.listen(PORT, () => {
