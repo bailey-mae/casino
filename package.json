@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require babel-core/register --recursive",
     "start": "nodemon app.js --exec babel-node --"
   },
   "author": "",
@@ -16,5 +16,10 @@
     "express": "^4.16.4",
     "lodash": "^4.17.11",
     "nodemon": "^1.18.11"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^6.1.4"
   }
 }

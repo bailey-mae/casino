@@ -2,6 +2,7 @@ import express from 'express';
 import db from './db/db';
 import bodyParser from 'body-parser';
 import _ from 'lodash';
+import poker from 'service/poker';
 
 // Set up the express app
 const app = express();
